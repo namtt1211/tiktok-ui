@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+### Extensions:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple React Snippets (Ho tro viet code)
+Prettier - Code formatter (format source code)
 
-## Available Scripts
+### Tiktok-Ui
 
-In the project directory, you can run:
+# Cai dat customize-cra (Ghi de cau hinh webpack cho ung dung)
 
-### `npm start`
+https://github.com/arackaf/customize-cra
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    npm i customize-cra react-app-rewired
+    [or]
+    yarn add customize-cra react-app-rewired --dev
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Cai dat babel-plugin-module-resolver (Tuy chinh plugin cho Babel)
 
-### `npm test`
+https://github.com/tleunen/babel-plugin-module-resolver
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    npm install --save-dev babel-plugin-module-resolver
+    [or]
+    yarn add --dev babel-plugin-module-resolver
 
-### `npm run build`
+# Cai dat va cau hinh prettier
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://vn.got-it.ai/blog/huong-dan-cach-format-code-visual-studio-code-voi-prettier
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Cau hinh prettier : .prettierrc
+{
+"arrowParens": "always",
+"bracketSameLine": false,
+"bracketSpacing": true,
+"embeddedLanguageFormatting": "auto",
+"htmlWhitespaceSensitivity": "css",
+"insertPragma": false,
+"jsxSingleQuote": false,
+"printWidth": 120,
+"proseWrap": "preserve",
+"quoteProps": "as-needed",
+"requirePragma": false,
+"semi": true,
+"singleQuote": true,
+"tabWidth": 4,
+"trailingComma": "all",
+"useTabs": false,
+"vueIndentScriptAndStyle": false
+}
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Cau hinh su dung CSS/SASS
 
-### `npm run eject`
+1.Cai thu vien SASS: https://sass-lang.com/
+npm i -D sass
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.Reset CSS: https://www.npmjs.com/package/normalize.css
+npm install --save normalize.css
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Cau hinh Router/Layout
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1.Cai dat react-router-dom:
+npm i react-router-dom
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Dung khung Layout mac dinh
 
-## Learn More
+Cai thu vien classnames:
+npm i classnames
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Xay dung UI phan Header
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Xay dung Logic phan Header
 
-### Code Splitting
+# Tim hieu va su dung thu vien Axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Hoan thien Header
 
-### Analyzing the Bundle Size
+# Tai cau truc va toi uu code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Ap dung PropTypes
 
-### Making a Progressive Web App
+# Giai quyet van de nhieu file index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Xay dung UI phan sidebar
