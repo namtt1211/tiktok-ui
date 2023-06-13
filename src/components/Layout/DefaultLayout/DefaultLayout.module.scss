@@ -5,9 +5,9 @@
 }
 
 .container {
-    width: val(--df-layout-width);
+    width: var(--df-layout-width);
     display: flex;
 }
 .content {
-    max-width: 796px;
+    flex: 1;
 }

@@ -15,21 +15,18 @@
 
 .inner {
     height: 100%;
-    width: val(--df-layout-width);
+    width: var(--df-layout-width);
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.logo {
+    justify-content: space-between;
 }
 
 .search {
     position: relative;
     width: 361px;
     height: var(--search-height);
-    display: flex;
     padding-left: 16px;
+    display: flex;
     background: var(--search-bg-color);
     border-radius: var(--search-border-radius);
     border: 1.5px solid transparent;
@@ -37,8 +34,9 @@
     input {
         flex: 1;
         height: 100%;
-        color: var(black);
+        color: var(--black);
         font-size: 1.6rem;
+        caret-color: var(--primary);
         background-color: transparent;
     }
 

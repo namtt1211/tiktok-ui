@@ -66,6 +66,17 @@ npm i classnames
 
 # Xay dung UI phan Header
 
+https://github.com/atomiks/tippyjs-react
+Cai dat Tippyjs: (Tooltip, popover, dropdown, and menu library)
+npm i tippy.js
+[or]
+yarn add tippy.js
+
+Component Wrappers:
+npm i @tippyjs/react
+[or]
+yarn add @tippyjs/react
+
 # Xay dung Logic phan Header
 
 # Tim hieu va su dung thu vien Axios
